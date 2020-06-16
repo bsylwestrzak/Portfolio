@@ -60,7 +60,7 @@ class App {
             // Content
             $mail->isHTML(true);                                        // Set email format to HTML
             $mail->Subject = 'Nowa wiadomość z formularza portfolio - ' . $_POST['name'];
-            $mail->Body    = 'Nadawca: ' . $_POST['name'] . '<br>' . $_POST['email'] . '<br><br>' . $_POST['content'];
+            $mail->Body    = 'Nadawca: ' . $_POST['firstname'] . ' ' . $_POST['lastname'] . '<br>' . $_POST['email'] . '<br><br>' . $_POST['content'];
 
             $mail->send();
 
