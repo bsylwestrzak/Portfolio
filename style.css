@@ -1,0 +1,341 @@
+body{
+    font-family: 'futura_r','Helvetica Neue','Helvetica','Arial','Avenir','Hiragino Sans',游ゴシック体, 'Yu Gothic', YuGothic,'ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+}
+.first_look{
+    background:linear-gradient(to bottom, #072142, #061c37, #07182b, #061220, #020b16);
+    height: 100vh;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_me{
+    background:linear-gradient(to bottom, #072142, #061c37, #07182b, #061220, #020b16);
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.name_and_burger{
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 99999;
+    top:0;
+    position: fixed;
+    width: 100%;
+
+}
+.name{
+    font-size: 1.6rem;
+    padding: 25 0 0 35;
+}
+.burger_line{
+    width: 35px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-right: 30px;
+}
+.b_l_2{
+    margin-top:10px;
+}
+.moonlight1{
+    position: absolute;
+    right: 0;
+    top:-150;
+}
+.moon{
+    position: absolute;
+    right:380;
+    top:230;
+}
+.cloud1{
+    position: absolute;
+    right:650;
+    top:550;
+}
+.cloud2{
+    position: absolute;
+    right:170;
+    top:620;
+}
+.cloud3{
+    position: absolute;
+    right:110;
+    top:320;
+}
+.cloud4{
+    position: absolute;
+    right:550;
+    top:180;
+    z-index: 1;
+}
+.cloud5{
+    position: absolute;
+    right:250;
+    top:110;
+}
+.stars{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.introduce_self{
+    color:#ffffff;
+
+}
+#my_name{
+    font-size:70px;
+    letter-spacing: 8px;
+}
+.red_line1{
+    width: 70px;
+    background: red;
+    height: 3px;
+    margin-top:30px;
+}
+.red_line2{
+    width: 70px;
+    background: red;
+    height: 3px;
+    margin-top:8px;
+    margin-left:50px;
+    margin-bottom:30px;
+}
+#front{
+    font-size:21px;
+}
+.portfolio{
+  position: absolute;
+  top:44.5%;
+  right:31%;
+  color:red;
+  z-index: 100;
+  font-size:53px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+.about_me_image{
+  z-index: 1000;
+  position: absolute;
+  top:25%;
+  right:250px;
+}
+.aboutimg{
+  object-fit: contain;
+  width: 800px;
+}
+.btn{
+  border-radius: 25px !important;
+  padding:15 25 !important;
+}
+.aboutme-wrap{
+    display: flex;
+}
+.aboutme-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex:1;
+    background:#020b16;
+    color:#ffffff;
+    padding-left: 200px !important;
+}
+.aboutme-right{
+    flex:2;
+    background:url('about.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutme-header{
+    font-size: 130px !important;
+}
+.aboutme-p{
+    font-size: 25px !important;
+}
+.who-i-am{
+    margin-top: 170px;
+    font-family: "futura_m";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #072142;
+
+}
+.who-i-am-left{
+    flex:1;
+}
+.who-i-am-right{
+    flex:1;
+}
+.who-i-am-right p{
+    padding:25 0 40 0;
+}
+.who-i-am-moon{
+    position: relative;
+}
+.who-i-am-picture{
+    object-fit: contain;
+    width: 530px;
+
+}
+.tech-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    color: #072142;
+}
+.project{
+    flex:1;
+    text-align: center;
+    margin-right: 75px;
+}
+.tech{
+    flex:1;
+    text-align: center;
+    margin-right:75px;
+}
+.history{
+    flex:1;
+    text-align: center;
+    
+}
+.tech-info i{
+    font-size: 150px;
+    background: -webkit-linear-gradient(#072142, #8C2B7A, #FF4D5A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tech-info h2{
+    padding:30 0;
+}
+
+.one-offert-data-box-wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-wrap: wrap;
+    
+}
+.one-offert-data-box{
+    width:170px;
+    height:170px;
+    box-shadow: 0px 0px 6px 0px rgba(235,235,235,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top:30px;
+}
+.one-offert-data-box-icon{
+    font-size: 50px;
+}
+.one-offert-data-box-h{
+    font-size: 21px;
+}
+.one-offert-data-box-about{
+    background: -webkit-linear-gradient(#072142, #8C2B7A, #FF4D5A);
+    color:#ffffff
+}
+.one-offert-image-and-description-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.one-offert-image{
+    flex:1;
+}
+.one-offert-description{
+    flex:1;
+}
+.one-offert-button{
+    text-align: center;
+    margin:20 0 0 0;
+}
+.one-offert-header-and-logo-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+.one-offert-logo-prop{
+    object-fit: contain;
+    width: 130px;
+}
+.one-offert-header h1{
+    padding-top: 11px;
+    font-size:55px;
+}
+.js{
+    object-fit: contain;
+    width: 500px;
+}
+.aboutmefooter{
+    background-image: linear-gradient(101deg, #072142, #8c2b7a 52%, #ff4d5a);
+}
+.aboutmefooter-content{
+    padding:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmefooter-content a{
+    color:#ffffff;
+    font-size: 50px;
+    text-decoration: none;
+}
+.aboutmefooter-content a:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
+.contact-icon-p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20 0;
+}
+.contact-icon-p p{
+    padding-left: 20px;
+    line-height: 1;
+    margin:0px;
+    font-size: 30px;
+}
+.contact-icon-p i{
+    font-size: 30px;
+}
+.contact-button{
+    font-size: 30px !important;
+    margin-top:20px !important;
+    padding:30 50 !important
+}
+.contact-right{
+    background:url('contact.jpg');
+    
+}
+.oneprojectback{
+    background: url('one2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
