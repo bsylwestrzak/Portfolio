@@ -55,7 +55,7 @@ class App {
 
             //Recipients
             $mail->setFrom('testmailkaka@gmail.com', 'BS Portfolio');
-            $mail->addAddress('mikowis5@gmail.com');                    // Add a recipient
+            $mail->addAddress('testmailkaka@gmail.com');                // Add a recipient
 
             // Content
             $mail->isHTML(true);                                        // Set email format to HTML
