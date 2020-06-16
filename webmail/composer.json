@@ -1,0 +1,9 @@
+{
+    "name": "fav/webmail",
+    "description": "Webmail feature for fav site",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "rakit/validation": "^1.2"
+    }
+}
